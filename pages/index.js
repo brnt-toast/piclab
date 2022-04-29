@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
-
+import Title from '../components/Title'
 
 export default function Home() {
   return (
@@ -17,7 +17,10 @@ export default function Home() {
         <Nav />
         <div className='grid flex-col grid-cols-2'>
           <Hero />
-
+          <Title 
+            title="hello world"  
+            content="nice to meet you"
+          />
         </div>
       </main>
     </div>
