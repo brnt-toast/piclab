@@ -11,7 +11,7 @@ export default function Nav() {
             <Image src={logo} alt="pic lab log" width={55} height={25} />
             <div className="container">picslab</div>
         </div>
-        <div className="links w-4/12 flex justify-between">
+        <div className="links flex justify-between">
             <Link href='#'>Download</Link>
             <Link href='#'>Docs</Link>
             <Link href='#'>Login</Link>
