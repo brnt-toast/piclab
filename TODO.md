@@ -1,5 +1,5 @@
-* [ ] Add Prismic to project
-* [ ] Organize Figma file in DESC order
+* [x] Add Prismic to project
+* [x] Organize Figma file in DESC order
 * [ ] Find and build ALL reuseable components
 * [ ] Make use of _app.js and an Layout Componet
     * [ ] "ENTER EMAIL"
@@ -9,14 +9,13 @@
         * [ ] Links as Props
         * [ ] Justify Content : `space-between`
         * [ ] Max-width: `1280px`
-    * [ ] RECT 16  = > GAUAGE 
+    * [x] FIGMA : RECT 16  = > GAUAGE 
         * [ ] margin
         * [ ] padding
     * [ ] H2 : `86PX`
     * [ ] H1 : `86PX`
 * [ ] EXPORT IMGS => ASSESTS/
 * [ ] FEATURE BANNER : BANNER
-* [ ] FEATURE BANNER : BANNER 
 * [ ] create .ico 
     * [ ] add to HEAD
 * [ ] edit prismicio.js : `linkResolver` 
