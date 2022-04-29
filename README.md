@@ -37,7 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 It is not only valid, but true. When faced with a deadline, while faced with  the challenge of using a completely foreign tech stack. It is imperative to break the problems down  into bit size atomic pieces. 
 ### 2. Iterate Iterate Iterate 
 Following the `Worse is Better Principal` -- Just Start. 
+* Start with a Skelaton.
 * Build Atomics into Molecules into Organisms.
-* Start with a Skelaton then add the Tendens andMuscles 
 ### 3. Refactor Refactor Refactor
 TDD/BDD basically preaches this. Just get something on the page then refactor like mad. Atleast have an `MVP` or `Protoype` to be able to show something. 
