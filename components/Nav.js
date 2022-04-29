@@ -6,7 +6,7 @@ import logo from '../assets/logo.svg'
 
 export default function Nav() {
   return (
-    <div className='flex w-5/6 justify-between m-auto'>
+    <div className='flex w-11/12 justify-between m-auto'>
         <div className="flex ">
             <Image src={logo} alt="pic lab log" width={55} height={25} />
             <div className="container">picslab</div>
