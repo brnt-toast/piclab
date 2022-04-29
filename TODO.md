@@ -21,4 +21,6 @@
 * [ ] edit prismicio.js : `linkResolver` 
     * [ ] match routing
     * [ ] add `case` for each page 
-
+* [ ] Make use of _app.js and an Layout Componet
+    * [ ] NAV
+    * [ ] FOOTER
