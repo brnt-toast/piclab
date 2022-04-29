@@ -1,16 +1,22 @@
 # PicLab
 
-## Getting Started
+## Getting Started  
 
 First, run the development server:
-
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+To Start Slice Simulator:
+```bash
+npm run slicemachine
+# or
+yarn dev slicemachine
+```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to view PicLab  
+Open [http://localhost:9999](http://localhost:9999) to view Slice Simulator 
 
 
 ## Deploy on Vercel
