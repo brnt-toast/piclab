@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className="text-center">
+    <div className="col-span-full text-center">
         <h1 className="text-8xl">
         Image management
             <span className='block'>
