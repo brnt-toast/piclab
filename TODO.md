@@ -14,4 +14,6 @@
     * [ ] H2 : 86PX
     * [ ] H1 : 86PX
 * [ ] EXPORT IMGS => ASSESTS/
-* FEATURE BANNER : BANNER 
+* [ ] FEATURE BANNER : BANNER 
+* [ ] create .ico 
+    * [ ] add to HEAD
