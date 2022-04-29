@@ -1,6 +1,7 @@
 * [ ] Add Prismic to project
 * [ ] Organize Figma file in DESC order
 * [ ] Find and build ALL reuseable components
+* [ ] Make use of _app.js and an Layout Componet
     * [ ] "ENTER EMAIL"
     * [ ] FEATURE BOX
     * [ ] LOGO
@@ -14,13 +15,10 @@
     * [ ] H2 : `86PX`
     * [ ] H1 : `86PX`
 * [ ] EXPORT IMGS => ASSESTS/
+* [ ] FEATURE BANNER : BANNER
 * [ ] FEATURE BANNER : BANNER 
 * [ ] create .ico 
     * [ ] add to HEAD
-* [ ] FEATURE BANNER : BANNER
 * [ ] edit prismicio.js : `linkResolver` 
     * [ ] match routing
     * [ ] add `case` for each page 
-* [ ] Make use of _app.js and an Layout Componet
-    * [ ] NAV
-    * [ ] FOOTER
