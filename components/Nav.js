@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/Link'
 
-import logo from '../assets/logo.svg'
+import logo from '/public/logo.svg'
 
 export default function Nav() {
   return (
