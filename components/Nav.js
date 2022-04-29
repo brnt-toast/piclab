@@ -6,12 +6,12 @@ import logo from '../assets/logo.svg'
 
 export default function Nav() {
   return (
-    <div className='flex w-11/12 justify-between m-auto'>
+    <div className='flex justify-between'>
         <div className="flex ">
-            <Image src={logo} alt="pic lab log" width={55} height={25} />
-            <div className="container">picslab</div>
+            <Image src={logo} alt="pic lab logo" width={55} height={25} />
+            <div>picslab</div>
         </div>
-        <div className="links flex justify-between">
+        <div className="">
             <Link href='#'>Download</Link>
             <Link href='#'>Docs</Link>
             <Link href='#'>Login</Link>
