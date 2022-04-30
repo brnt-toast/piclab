@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import hero from  '../assets/app.piclab-5.png'
+import hero from  '/public/app.piclab-5.png'
 
 export default function Hero() {
   return (
