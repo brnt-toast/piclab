@@ -11,7 +11,7 @@ export default function Nav() {
             <Image src={logo} alt="pic lab logo" width={55} height={25} />
             <div>picslab</div>
         </div>
-        <div className="">
+        <div className="text-base">
             <Link href='#'>Download</Link>
             <Link href='#'>Docs</Link>
             <Link href='#'>Login</Link>

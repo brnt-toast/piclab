@@ -8,6 +8,7 @@ import Hero from '../components/Hero'
 import Title from '../components/Title'
 import Banner from '../components/Banner'
 import FeatureBox from '../components/FeatureBox'
+import Email from '../components/Email'
 
 import img from '/public/Image-Group-1.png'
 import colab from '/public/colab.png'
@@ -24,18 +25,22 @@ export default function Home() {
         <title>PicLab</title>
         <meta name="description" content="Your Picture Laboratory" />
         <link rel="icon" href="/logo.svg" />
+        <link rel='stylesheet' href='https://rsms.me/inter/inter.css' />
+        <link rel="stylesheet" href="https://cloud.typography.com/6929016/7418832/css/fonts.css" />
       </Head>
       <Script src="https://kit.fontawesome.com/117bcfe378.js" />
+
       <main className=' w-11/12'>
         <Nav />
         <div className='grid flex-col grid-cols-2'>
           <Hero />
+
           <div className='col-span-full'>
-            <Title 
-              title="One unified toolset."  
+            <Title
+              title="One unified toolset."
               content="Finally, an image management app that devs, designers, and marketing teams can agree on.."
             />
-            <Image 
+            <Image
               src={img}
               alt="image showcase"
               className='block col-span-full'
@@ -43,87 +48,89 @@ export default function Home() {
           </div>
 
 
-          
-            <div className='flex-col col-span-full'>
-              <Title 
-                  title="Next-gen features."
-                  content="A powerful set of tools designed to 
+
+          <div className='flex-col col-span-full'>
+            <Title
+              title="Next-gen features."
+              content="A powerful set of tools designed to 
                   work in any situation."
-                />
-            </div>
-          
-            <Image 
-              src={nextGen}
-              alt="features image"
-
             />
+          </div>
 
-           <div className="inline-grid grid-cols-2">
-            <FeatureBox 
-                icon="fa-solid fa-gear"
-                title="Ultra-Fast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              />
-              <FeatureBox 
-                icon="fa-solid fa-gear"
-                title="Ultra-Fast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              />
-              <FeatureBox 
-                icon="fa-solid fa-gear"
-                title="Ultra-Fast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              />
-              <FeatureBox 
-                icon="fa-solid fa-gear"
-                title="Ultra-Fast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              />
-              <FeatureBox 
-                icon="fa-solid fa-gear"
-                title="Ultra-Fast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              />
-              <FeatureBox 
-                icon="fa-solid fa-gear"
-                title="Ultra-Fast"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              />
-           </div>
+          <Image
+            src={nextGen}
+            alt="features image"
 
-        
+          />
+
+          <div className="inline-grid grid-cols-2">
+            <FeatureBox
+              icon="fa-solid fa-gear"
+              title="Ultra-Fast"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <FeatureBox
+              icon="fa-solid fa-gear"
+              title="Ultra-Fast"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <FeatureBox
+              icon="fa-solid fa-gear"
+              title="Ultra-Fast"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <FeatureBox
+              icon="fa-solid fa-gear"
+              title="Ultra-Fast"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <FeatureBox
+              icon="fa-solid fa-gear"
+              title="Ultra-Fast"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <FeatureBox
+              icon="fa-solid fa-gear"
+              title="Ultra-Fast"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+          </div>
 
 
 
 
-          
+
+
+
           <Banner
             src={colab}
             alt='colob phot'
             title='Collaborate.'
-            content='Build image libraries, called workspaces, to collaborate across teams and organizations. Tempor, viverra in fames gravida. Magna placerat sodales id fermentum ultrices et commodo volutpat viverra. Nibh mauris, adipiscing suspendisse eros, quis id magna sed pellentesque sed.' 
+            content='Build image libraries, called workspaces, to collaborate across teams and organizations. Tempor, viverra in fames gravida. Magna placerat sodales id fermentum ultrices et commodo volutpat viverra. Nibh mauris, adipiscing suspendisse eros, quis id magna sed pellentesque sed.'
           />
 
           <Banner src={organize}
             alt="organize screen shot"
             title="Organize."
             content="Group images by tags, or let our AI do it for you, and grab a cup of coffee instead. Aliquet non dui amet integer sit rhoncus quis pharetra. Pellentesque sed elementum fusce auctor adipiscing. Adipiscing arcu pulvinar nisl sit dapibus."
-           />
+          />
           <Banner src={compose}
             alt="composition screen shot"
             title="Compose."
             content="Prep your images for any type of project, with social media presets baked in. Nunc facilisi viverra in nisl eget egestas cum elementum netus. Aliquet non dui amet integer sit rhoncus quis pharetra."
-           />
+          />
           <Banner src={powerful}
             alt="lion"
             title="Powerful."
             content="Under the hood, PicLab is powered by imgix, the most robust image processor on the web. Use our ultra-fast CDN to host your images, optimize, or download your entire library, all backed by technology that serves billions of images, daily. "
-           />
+          />
 
-           <Title 
+          <Title
             title="Ready to give PicLab a try?"
             content="Become an early adpoter by joining our beta test program and invite friends and collegues."
-           />
+          />
+
+          <Email />
         </div>
       </main>
     </div>
