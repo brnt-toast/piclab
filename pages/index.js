@@ -1,16 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
+
 
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import Title from '../components/Title'
 import Banner from '../components/Banner'
+import FeatureBox from '../components/FeatureBox'
 
 import img from '/public/Image-Group-1.png'
 import colab from '/public/colab.png'
 import compose from '/public/compose.png'
 import organize from '/public/organize.png'
 import powerful from '/public/powerful.png'
+import nextGen from '/public/next-gen-feats.png'
+
 
 export default function Home() {
   return (
@@ -20,7 +25,7 @@ export default function Home() {
         <meta name="description" content="Your Picture Laboratory" />
         <link rel="icon" href="/logo.svg" />
       </Head>
-
+      <Script src="https://kit.fontawesome.com/117bcfe378.js" />
       <main className=' w-11/12'>
         <Nav />
         <div className='grid flex-col grid-cols-2'>
@@ -36,6 +41,61 @@ export default function Home() {
               className='block col-span-full'
             />
           </div>
+
+
+          
+            <div className='flex-col col-span-full'>
+              <Title 
+                  title="Next-gen features."
+                  content="A powerful set of tools designed to 
+                  work in any situation."
+                />
+            </div>
+          
+            <Image 
+              src={nextGen}
+              alt="features image"
+
+            />
+
+           <div className="inline-grid grid-cols-2">
+            <FeatureBox 
+                icon="fa-solid fa-gear"
+                title="Ultra-Fast"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              />
+              <FeatureBox 
+                icon="fa-solid fa-gear"
+                title="Ultra-Fast"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              />
+              <FeatureBox 
+                icon="fa-solid fa-gear"
+                title="Ultra-Fast"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              />
+              <FeatureBox 
+                icon="fa-solid fa-gear"
+                title="Ultra-Fast"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              />
+              <FeatureBox 
+                icon="fa-solid fa-gear"
+                title="Ultra-Fast"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              />
+              <FeatureBox 
+                icon="fa-solid fa-gear"
+                title="Ultra-Fast"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              />
+           </div>
+
+        
+
+
+
+
           
           <Banner
             src={colab}
