@@ -1,14 +1,26 @@
 /* BANNER.JS -- FIGMA : FEATURE BANNER
---
-To edit this component : 
-git checkout banner-component 
---
 Props : image, title, text, button, background color
 */
 import React from 'react'
+import Image from 'next/image'
 
-export default function Banner(props) {
+import Title from '../components/Title'
+
+export default function Banner({src, alt, title, content}) {
   return (
-    <div>Banner</div>
+    <div className='col-span-full flex'>
+      <div className="w-2/4">
+        <Title 
+          title={title}
+          content={content} />
+      </div>
+
+        <div className='w-2/4'>
+        <Image 
+          src={src}
+          alt={alt} />
+        </div>
+
+    </div>
   )
 }
