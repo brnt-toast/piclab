@@ -4,11 +4,11 @@
 * [ ] Make use of _app.js and an Layout Componet
     * [ ] "ENTER EMAIL"
     * [ ] FEATURE BOX
-    * [ ] LOGO
+    * [x] LOGO
     * [ ] NAV / FOOTER :
         * [ ] Links as Props
         * [x] Justify Content : `space-between`
-        * [ ] Max-width: `1280px`
+        * [x] Max-width: `1280px`
     * [x] FIGMA : RECT 16  = > GAUAGE 
         * [ ] margin
         * [ ] padding
