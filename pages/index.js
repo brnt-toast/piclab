@@ -7,7 +7,7 @@ import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import Title from '../components/Title'
 import Banner from '../components/Banner'
-import FeatureBox from '../components/FeatureBox'
+import FeatureRack from '../components/FeatureRack'
 import Email from '../components/Email'
 
 import img from '/public/Image-Group-1.png'
@@ -34,7 +34,18 @@ export default function Home() {
         <Nav />
         <div className='grid flex-col grid-cols-2'>
           <Hero />
-
+          <div className='flex-col col-span-full'>
+            <Title
+              size="text-6xl"
+              title="Next-gen features."
+              content="A powerful set of tools designed to work in any situation."
+            />
+          </div>
+          <Image
+            src={nextGen}
+            alt="features image"
+          />
+          <FeatureRack />
           <div className='col-span-full'>
             <Title
               size="text-6xl"
@@ -47,70 +58,12 @@ export default function Home() {
               className='block col-span-full'
             />
           </div>
-
-
-
-          <div className='flex-col col-span-full'>
-            <Title
-              size="text-6xl"
-              title="Next-gen features."
-              content="A powerful set of tools designed to 
-                  work in any situation."
-            />
-          </div>
-
-          <Image
-            src={nextGen}
-            alt="features image"
-
-          />
-
-          <div className="inline-grid grid-cols-2">
-            <FeatureBox
-              icon="fa-solid fa-gear"
-              title="Ultra-Fast"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <FeatureBox
-              icon="fa-solid fa-gear"
-              title="Ultra-Fast"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <FeatureBox
-              icon="fa-solid fa-gear"
-              title="Ultra-Fast"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <FeatureBox
-              icon="fa-solid fa-gear"
-              title="Ultra-Fast"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <FeatureBox
-              icon="fa-solid fa-gear"
-              title="Ultra-Fast"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <FeatureBox
-              icon="fa-solid fa-gear"
-              title="Ultra-Fast"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-          </div>
-
-
-
-
-
-
-
           <Banner
             src={colab}
             alt='colob phot'
             title='Collaborate.'
             content='Build image libraries, called workspaces, to collaborate across teams and organizations. Tempor, viverra in fames gravida. Magna placerat sodales id fermentum ultrices et commodo volutpat viverra. Nibh mauris, adipiscing suspendisse eros, quis id magna sed pellentesque sed.'
           />
-
           <Banner src={organize}
             alt="organize screen shot"
             title="Organize."
@@ -126,13 +79,11 @@ export default function Home() {
             title="Powerful."
             content="Under the hood, PicLab is powered by imgix, the most robust image processor on the web. Use our ultra-fast CDN to host your images, optimize, or download your entire library, all backed by technology that serves billions of images, daily. "
           />
-
           <Title
             size="text-6xl"
             title="Ready to give PicLab a try?"
             content="Become an early adpoter by joining our beta test program and invite friends and collegues."
           />
-
           <Email />
         </div>
       </main>
