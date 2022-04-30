@@ -1,7 +1,7 @@
 * [x] Add Prismic to project
 * [x] Organize Figma file in DESC order
 * [ ] Make use of _app.js and an Layout Componet
-    * [ ] "ENTER EMAIL"
+    * [x] "ENTER EMAIL"
     * [x] FEATURE BOX
     * [x] LOGO
     * [ ] NAV / FOOTER :
