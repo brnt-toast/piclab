@@ -37,6 +37,7 @@ export default function Home() {
 
           <div className='col-span-full'>
             <Title
+              size="text-6xl"
               title="One unified toolset."
               content="Finally, an image management app that devs, designers, and marketing teams can agree on.."
             />
@@ -51,6 +52,7 @@ export default function Home() {
 
           <div className='flex-col col-span-full'>
             <Title
+              size="text-6xl"
               title="Next-gen features."
               content="A powerful set of tools designed to 
                   work in any situation."
@@ -126,6 +128,7 @@ export default function Home() {
           />
 
           <Title
+            size="text-6xl"
             title="Ready to give PicLab a try?"
             content="Become an early adpoter by joining our beta test program and invite friends and collegues."
           />
