@@ -59,7 +59,11 @@ export default function Home() {
             title="Powerful."
             content="Under the hood, PicLab is powered by imgix, the most robust image processor on the web. Use our ultra-fast CDN to host your images, optimize, or download your entire library, all backed by technology that serves billions of images, daily. "
            />
-        
+
+           <Title 
+            title="Ready to give PicLab a try?"
+            content="Become an early adpoter by joining our beta test program and invite friends and collegues."
+           />
         </div>
       </main>
     </div>
