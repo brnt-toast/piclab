@@ -9,8 +9,6 @@
         * [x] Justify Content : `space-between`
         * [x] Max-width: `1280px`
     * [x] FIGMA : RECT 16  = > GAUAGE 
-        * [ ] margin
-        * [ ] padding
 * [x] FEATURE BANNER : BANNER
 * [x] create .ico 
     * [x] add to HEAD
