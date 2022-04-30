@@ -7,7 +7,7 @@
     * [ ] LOGO
     * [ ] NAV / FOOTER :
         * [ ] Links as Props
-        * [ ] Justify Content : `space-between`
+        * [x] Justify Content : `space-between`
         * [ ] Max-width: `1280px`
     * [x] FIGMA : RECT 16  = > GAUAGE 
         * [ ] margin
