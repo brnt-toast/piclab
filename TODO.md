@@ -15,7 +15,7 @@
     * [ ] H2 : `86PX`
     * [ ] H1 : `86PX`
 * [ ] EXPORT IMGS => ASSESTS/
-* [ ] FEATURE BANNER : BANNER
+* [x] FEATURE BANNER : BANNER
 * [ ] create .ico 
     * [ ] add to HEAD
 * [ ] edit prismicio.js : `linkResolver` 
