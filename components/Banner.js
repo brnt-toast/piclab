@@ -8,8 +8,8 @@ import Title from '../components/Title'
 
 export default function Banner({src, alt, title, content}) {
   return (
-    <div className='col-span-full flex'>
-      <div className="w-2/4">
+    <div className='col-span-full flex items-center'>
+      <div className="text-center w-2/4">
         <Title 
           title={title}
           content={content} />
