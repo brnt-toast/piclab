@@ -11,6 +11,7 @@ export default function Banner({src, alt, title, content}) {
     <div className='col-span-full flex items-center'>
       <div className="text-center w-2/4">
         <Title 
+          size='text-5xl'
           title={title}
           content={content} />
       </div>
