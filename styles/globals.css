@@ -5,19 +5,29 @@
 * {
   text-decoration: none;
   box-sizing: border-box;
-  padding: 1px;
-  margin: 1px;
+  padding: 0;
+  margin: 0;
   color: white;
-  background-color: black;
 
+  
+  background-color: black;
   border: .5px solid white;
 }
 
-html > p {
-  line-height: 31px;
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* firfox */
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 :root { font-family: 'Inter', sans-serif; }
   @supports (font-variation-settings: normal) {
     :root { font-family: 'Inter var', sans-serif; }
+  }
+  
+p {
+    line-height: 31px;
   }

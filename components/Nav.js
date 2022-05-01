@@ -2,15 +2,14 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/Link'
 
-import logo from '/public/logo.svg'
+import Logo from './Logo'
 
 export default function Nav() {
   return (
     <div className='flex justify-between'>
-        <div className="flex ">
-            <Image src={logo} alt="pic lab logo" width={55} height={25} />
-            <div>picslab</div>
-        </div>
+       <Logo>
+        <span>piclab</span>
+       </Logo>
         <div className="text-base">
             <Link href='#'>Download</Link>
             <Link href='#'>Docs</Link>

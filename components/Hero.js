@@ -7,7 +7,7 @@ import hero from  '/public/app.piclab-5.png'
 
 export default function Hero() {
   return (
-    <div className="col-span-full text-center">
+    <div className="">
         <h1 className="text-7xl font-extrabold">
         Image management
             <span className='block'>
@@ -15,7 +15,7 @@ export default function Hero() {
             </span>
         </h1>
             
-        <p className='m-auto leading-8 w-2/4 px-8 text-center text-xl'>
+        <p className='text-xl'>
             Organize, transform, & serve your entire photo library. The perfect image management app for freelancers, organizations, & web developers.
         </p>
 
