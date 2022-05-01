@@ -1,16 +1,25 @@
 import React from 'react'
-
+import Title from './Title'
+import Icon from './Icon'
 
 export default function FeatureBox(props) {
-    const {icon, title, text} = props
+    const {
+      size = "text-4xl",
+      icon, 
+      title, 
+      text
+    } = props
   return (
 
     <div>
-        <div className="icon">
-            <i className={icon}></i>
-        </div>
-        <h3 className='title'>{title}</h3>
-        <p className='text'>{text}</p>
+        <Icon 
+          icon={icon}
+        />
+        <Title 
+          size={size}
+          title={title}
+          content={text}
+        />
     </div>
   )
 }
