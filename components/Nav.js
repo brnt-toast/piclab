@@ -6,19 +6,20 @@ import Logo from './Logo'
 
 export default function Nav() {
   return (
-    <div className='flex justify-between'>
+    <div className='flex items-center justify-between w-10/12 mx-auto col-start-1 col-end-13'>
        <Logo>
         <span>piclab</span>
        </Logo>
-        <div className="text-base">
+        <div className="flex items-center pl-8 justify-between w-5/12">
             <Link href='#'>Download</Link>
             <Link href='#'>Docs</Link>
             <Link href='#'>Login</Link>
-            <button className='bg-fuchsia-800 p-2' >
+
+            <button className='bg-_purple py-2 px-5 rounded-md' >
                 <Link href='#'>Request Beta Access</Link>
             </button>
-
         </div>
+        
 
     </div>
   )

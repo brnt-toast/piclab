@@ -4,7 +4,7 @@ import FeatureBox from './FeatureBox'
 
 export default function FeatureRack() {
   return (
-    <div className="inline-grid grid-cols-2 items-center">
+    <div className="inline-grid grid-cols-2 gap-5 items-center">
       <FeatureBox
       icon="fa-solid fa-gear"
       title="Ultra-Fast"

@@ -7,6 +7,7 @@ import Title from './Title'
 
 export default function FeatureSection(props) {
   const {
+    distance,
     size, 
     title, 
     content, 
@@ -16,18 +17,23 @@ export default function FeatureSection(props) {
     children
   } = props
   return (
-    <div className=''>
+    <div className={`${distance} flex flex-col leading-[6rem]`}>
       <Title
           size={size}
           title={title}
           content={content}
         />
-      <Image
-        src={img}
-        alt={altTag}
-        className={classes} />
+      <div className="flex justify-between">
+        <Image
+          src={img}
+          alt={altTag}
+          className={classes} />
 
-          {children}
+          <div className="w-2/4">
+            {children}  
+          </div>
+      </div>   
+    
     </div>
   )
 }

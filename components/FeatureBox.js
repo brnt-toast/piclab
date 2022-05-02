@@ -11,7 +11,7 @@ export default function FeatureBox(props) {
     } = props
   return (
 
-    <div>
+    <div className='bg-red-600'>
         <Icon 
           icon={icon}
         />
