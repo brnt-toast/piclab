@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import Title from './Title'
+import Title from '../Title'
 
 
 
