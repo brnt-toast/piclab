@@ -1,6 +1,5 @@
 import React from 'react'
 
-import FeatureSection from '../FeatureSection'
 import FeatureRack from '../FeatureRack'
 import Title from '../Title'
 import Image from 'next/image'

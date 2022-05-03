@@ -23,7 +23,7 @@ export default function Home() {
       <HeroSection />
       <NexGenSection />
       <ToolSection />
-      {/*<FeatureBannerSection /> */}
+      <FeatureBannerSection />
      
     </div>
   )
