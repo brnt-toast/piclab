@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/Link'
 
-import Logo from './Logo'
+import Logo from '../Logo'
 
-export default function Nav() {
+export default function NavBar() {
   return (
-    <div className='flex items-center justify-between w-10/12 mx-auto col-start-1 col-end-13'>
+    <div className='flex items-center justify-between w-10/12 mx-auto'>
        <Logo>
         <span>piclab</span>
        </Logo>

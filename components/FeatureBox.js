@@ -4,10 +4,9 @@ import Icon from './Icon'
 
 export default function FeatureBox(props) {
     const {
-      size = "text-4xl",
       icon, 
-      title, 
-      text
+      title,
+      text 
     } = props
   return (
 
@@ -16,10 +15,9 @@ export default function FeatureBox(props) {
           icon={icon}
         />
         <Title 
-          size={size}
           title={title}
-          content={text}
         />
+        <p>{text}</p>
     </div>
   )
 }

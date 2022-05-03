@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Banner from './Banner'
+import Banner from '../Banner'
 
 import colab from '/public/colab.png'
 import compose from '/public/compose.png'
