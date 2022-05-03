@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  border: .5px solid white;
+}
+
 html {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* firfox */
