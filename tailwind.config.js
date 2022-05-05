@@ -24,12 +24,12 @@ module.exports = {
       lineHeight: {
         '11' : '6rem'
       },
-      boxShadow: {
+      dropShadow: {
         'glowie': [
-          '0 35px 60px -15px #D37B29',
-          '0 35px 60px -15px #FF7A93',
-          '0 35px 60px -15px #8240EF',
-          '0 35px 60px -15px #EC3C48'
+          '0 0 100px rgba(211, 123, 41, 0.2)',
+          '0 0 100px rgba(255, 122, 147, 0.2)', 
+          '0 0 100px rgba(130, 64, 239, 0.2)',
+          '0 0 100px rgba(236, 60, 72, 0.2)'
 
         ]
       }
