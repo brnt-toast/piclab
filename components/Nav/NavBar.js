@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/Link'
+import NextLink from 'next/link'
 
 import Logo from '../Logo'
 import Button from '../Button'
@@ -11,12 +11,12 @@ export default function NavBar() {
         <span>piclab</span>
        </Logo>
         <div className="flex items-center pl-8 justify-between w-5/12">
-            <Link href='#'>Download</Link>
-            <Link href='#'>Docs</Link>
-            <Link href='#'>Login</Link>
+            <NextLink href='#'>Download</NextLink>
+            <NextLink href='#'>Docs</NextLink>
+            <NextLink href='#'>Login</NextLink>
 
             <Button>
-              <Link href='#'>Request Beta Access</Link>
+              <NextLink href='#'>Request Beta Access</NextLink>
             </Button>
         </div>
         

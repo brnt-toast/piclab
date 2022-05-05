@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
-import Link from 'next/link'
+import NextLink from 'next/link'
 
 import Title from '../components/Title'
 import Button from '../components/Button'
@@ -218,12 +218,12 @@ export default function Home() {
 
               
             '>
-              <Link href="#">Request Beta</Link>
-              <Link href="#">Login</Link>
-              <Link href="#">Docs</Link>
-              <Link href="#">Download</Link>
-              <Link href="#">Feedback</Link>
-              <Link href="#">Legal</Link>
+              <NextLink href="#">Request Beta</NextLink>
+              <NextLink href="#">Login</NextLink>
+              <NextLink href="#">Docs</NextLink>
+              <NextLink href="#">Download</NextLink>
+              <NextLink href="#">Feedback</NextLink>
+              <NextLink href="#">Legal</NextLink>
             </div>
           </div>
         </div>
