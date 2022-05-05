@@ -7,21 +7,21 @@ import toolset from '/public/toolset.png'
 export default function ToolSection() {
   return (
     <div className='col-start-2 col-end-12'> 
-      <div className='py-36'>
-        <div className='text-6xl'>
-              <div className='py-14'>
+      <div className=''>
+        <div className='text-6xl py-16'>
+              <div className=''>
                 <Title 
                       title="One unified toolset."
                   />
               </div>
 
-                <p className='text-xl leading-8 m-auto px-8 w-5/12'>
+                <p className='text-xl py-12 leading-8 m-auto px-8 w-5/12'>
                     Finally, an image management app that devs, designers, and marketing teams can agree on.
                 </p>
 
             </div>
       </div>
-        <div className='py-24'>
+        <div className=''>
             <Image 
                 src={toolset}
                 alt="lorem ipsum"
