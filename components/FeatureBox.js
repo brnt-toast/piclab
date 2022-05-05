@@ -23,7 +23,7 @@ export default function FeatureBox(props) {
             title={title}
           />
        </div>
-        <p className='leading-6'>{text}</p>
+        <p className='text-_lightGray leading-6'>{text}</p>
      </div>
     </div>
   )

@@ -48,7 +48,7 @@ export default function Home() {
                   />
                 </div>
                 <div className='py-6'>
-                  <p className='text-xl leading-8'>
+                  <p className='text-xl text-_lightGray leading-8'>
                     Build image libraries, called workspaces, to collaborate across teams and organizations. Tempor, viverra in fames gravida. Magna placerat sodales id fermentum ultrices et commodo volutpat viverra. Nibh mauris, adipiscing suspendisse eros, quis id magna sed pellentesque sed.
                   </p>
                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
                   />
                 </div>
                 <div className='py-6'>
-                  <p className='text-xl leading-8'>
+                  <p className='text-xl text-_lightGray leading-8'>
                     Group images by tags, or let our AI do it for you, and grab a cup of coffee instead. Aliquet non dui amet integer sit rhoncus quis pharetra. Pellentesque sed elementum fusce auctor adipiscing. Adipiscing arcu pulvinar nisl sit dapibus.
                   </p>
                 </div>
@@ -122,7 +122,7 @@ export default function Home() {
                   />
                 </div>
                 <div className='py-6'>
-                  <p className='text-left text-xl leading-8'>
+                  <p className='text-left text-_lightGray text-xl leading-8'>
                     Prep your images for any type of project, with social media presets baked in. Nunc facilisi viverra in nisl eget egestas cum elementum netus. Aliquet non dui amet integer sit rhoncus quis pharetra.
                   </p>
                 </div>
@@ -178,7 +178,7 @@ export default function Home() {
                   />
                 </div>
                 <div className=''>
-                  <p className=' text-xl leading-8'>
+                  <p className='text-_lightGray text-xl leading-8'>
                     Under the hood, PicLab is powered by imgix, the most robust image processor on the web. Use our ultra-fast CDN to host your images, optimize, or download your entire library, all backed by technology that serves billions of images, daily.
                   </p>
                 </div>
@@ -198,7 +198,7 @@ export default function Home() {
               />
             </div>
             <div>
-              <p className='text-center text-xl w-5/12 px-8 py-4 leading-8 mx-auto'>
+              <p className='text-center  text-_lightGray text-xl w-5/12 px-8 py-4 leading-8 mx-auto'>
                 Become an early adpoter by joining our beta test program and invite friends and collegues.
               </p>
             </div >
@@ -211,7 +211,7 @@ export default function Home() {
           <div className='col-start-2 col-end-12 flex text-center justify-between items-center '>
             <div className='flex'>
               <Logo />
-              <p className='text-xs self-center px-8'>© Monogram LLC | 2022</p>
+              <p className='text-xs self-center text-_lightGray px-8'>© Monogram LLC | 2022</p>
             </div>
 
             <div className='w-5/12 text-xs bg-transparent flex justify-between 

@@ -11,7 +11,8 @@ module.exports = {
         '_blue' : '#6100FF',
         '_pink' : '#F93BB8',
         '_orange' : '#FF4B40',
-        '_saturated': "#17161D"
+        '_saturated': "#17161D",
+        '_lightGray': "#8D8498"
       },
       backgroundImage: {
         'grid' : "url('/grid.svg')",

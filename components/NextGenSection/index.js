@@ -13,7 +13,7 @@ export default function NextGenSection() {
             title="Next-gen features."
           />
         </div>
-        <p className='w-3/12 px-2 leading-8 py-12 text-xl mx-auto'>
+        <p className='w-3/12 px-2 text-_lightGray leading-8 py-12 text-xl mx-auto'>
             A powerful set of tools designed to work in any situation.
         </p>
       <div className='flex py-24'>
