@@ -15,7 +15,7 @@ export default function ToolSection() {
                   />
               </div>
 
-                <p className='text-xl text-center leading-8 m-auto w-5/12'>
+                <p className='text-xl leading-8 m-auto px-8 w-5/12'>
                     Finally, an image management app that devs, designers, and marketing teams can agree on.
                 </p>
 
