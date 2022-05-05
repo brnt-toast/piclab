@@ -4,7 +4,7 @@ export default function Email() {
   return (
     <div className="mx-auto  relative ">
         <button className='w-24 h-24 z-10 absolute -top-2 right-2/3
-          bg-gradient-to-r from-_blue via-_pink to-_orange 
+          bg-gradient-to-br from-_blue via-_pink to-_orange 
           rounded-full'>
             <i className="text-3xl text-white fa-regular fa-lock-keyhole"></i>
         </button>
