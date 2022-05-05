@@ -23,6 +23,15 @@ module.exports = {
       },
       lineHeight: {
         '11' : '6rem'
+      },
+      boxShadow: {
+        'glowie': [
+          '0 35px 60px -15px #D37B29',
+          '0 35px 60px -15px #FF7A93',
+          '0 35px 60px -15px #8240EF',
+          '0 35px 60px -15px #EC3C48'
+
+        ]
       }
     },
     fontSize:{
