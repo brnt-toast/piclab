@@ -47,3 +47,5 @@ Instead what I did was spent 4 hours reading docs on the first about Prismic.io 
 * Instead of working in a descending, top to bottom, approch. After getting the grid layout implemented, I should have when straight into implementing `Feature Banners` as they were the bulk of the page. The Declaritive nature of React allows this to happen seemlessly 
     * Then the `Header` and `Footer`
     * Followed by the rest of the document
+### 5. TailwindCSS has a Mobile First Paradigm
+* Write styles for Mobile natively then iterate with the `md` and `lg` prefix
