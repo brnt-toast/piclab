@@ -29,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
 
-      <Script src="https://kit.fontawesome.com/117bcfe378.js" />
+      <Script defer src="https://kit.fontawesome.com/117bcfe378.js" />
 
       <Nav />
       <HeroSection />
