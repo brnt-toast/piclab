@@ -6,10 +6,10 @@ import toolset from '/public/toolset.png'
 
 export default function ToolSection() {
   return (
-    <div className='col-start-2 col-end-12'> 
-      <div className=''>
+    <div className='col-start-2 col-end-12 '> 
+      <div className=' bg-lines bg-no-repeat bg-center'>
         <div className='text-6xl py-16'>
-              <div className=''>
+              <div className=' '>
                 <Title 
                       title="One unified toolset."
                   />

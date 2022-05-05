@@ -182,7 +182,7 @@ export default function Home() {
       </div>
 
       {/* CALL TO ACTION */}
-      <div className='col-start-2 col-end-12 bg-no-repeat bg-lines'>
+      <div className='col-start-2 col-end-12 bg-no-repeat bg-right bg-lines'>
         <div className=''>
           <div className='col-start-2 py-36 mb-16 col-end-12 '>
             <div className='text-6xl'>
