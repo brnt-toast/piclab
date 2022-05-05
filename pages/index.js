@@ -18,7 +18,7 @@ import colab from '/public/colab1.png'
 import organize from '/public/organize1.png'
 import compose from '/public/compose1.png'
 import powerful from '/public/powerful1.png'
-
+import imgix from '/public/imgix.svg'
 
 export default function Home() {
   return (
@@ -157,11 +157,18 @@ export default function Home() {
       <div className='flex col-start-1 col-end-13'>
         <div className='py-32'>
           <div className='inline-grid grid-cols-12'>
-            <div className='col-start-1 col-end-7'>
+            <div className='col-start-1 col-end-7 flex relative'>
               <Image
                 src={powerful}
                 alt="coloab"
               />
+              <div className='absolute right-8 top-4'>
+                <Image 
+                  src={imgix}
+                  alt="lorem"
+                />
+              </div>
+            
             </div >
             <div className='flex flex-col justify-evenly col-start-8 col-end-12'>
               <div className='flex text-left flex-col'>
