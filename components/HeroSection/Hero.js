@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
        </div>
             
-        <p className=' text-xl w-6/12 px-2 leading-8 m-auto'>
+        <p className=' text-xl w-6/12 px-8 leading-8 m-auto'>
             Organize, transform, & serve your entire photo library. The perfect image management app for freelancers, organizations, & web developers.
         </p>
       <div className=''>
