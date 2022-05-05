@@ -10,14 +10,20 @@ export default function FeatureBox(props) {
     } = props
   return (
 
-    <div className='bg-red-600'>
+    <div className='bg-_saturated flex'>
+     <div className='m-8'>
+      <div className='bg-gradient-to-r from-_blue via-_pink to-_orange w-fit bg-clip-text text-transparent'>
         <Icon 
-          icon={icon}
-        />
+            icon={icon}
+          />
+      </div>
+       <div className='py-4'>
         <Title 
-          title={title}
-        />
+            title={title}
+          />
+       </div>
         <p>{text}</p>
+     </div>
     </div>
   )
 }

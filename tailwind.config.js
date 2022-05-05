@@ -10,8 +10,20 @@ module.exports = {
         '_purple':'#6214E2',
         '_blue' : '#6100FF',
         '_pink' : '#F93BB8',
-        '_orange' : '#FF4B40'
+        '_orange' : '#FF4B40',
+        '_saturated': "#17161D"
       },
+      backgroundImage: {
+        'grid' : "url('/grid.svg')",
+        'glowies': "url('/Glowies.svg')",
+        'lines' : "url('/Lines.svg')"
+      },
+      backgroundSize: {
+        'xl' : '150%'
+      },
+      lineHeight: {
+        '11' : '6rem'
+      }
     },
     fontSize:{
       'base': '1rem',   // 16px
