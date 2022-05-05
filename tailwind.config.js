@@ -16,7 +16,8 @@ module.exports = {
       backgroundImage: {
         'grid' : "url('/grid.svg')",
         'glowies': "url('/Glowies.svg')",
-        'lines' : "url('/Lines.svg')"
+        'lines' : "url('/Lines.svg')",
+        'imgix' : "url('/imgix.svg')"
       },
       backgroundSize: {
         'xl' : '150%'
@@ -26,10 +27,10 @@ module.exports = {
       },
       dropShadow: {
         'glowie': [
-          '0 0 100px rgba(211, 123, 41, 0.2)',
-          '0 0 100px rgba(255, 122, 147, 0.2)', 
-          '0 0 100px rgba(130, 64, 239, 0.2)',
-          '0 0 100px rgba(236, 60, 72, 0.2)'
+          '0 0 200px rgba(211, 123, 41, 0.2)',
+          '0 0 200px rgba(255, 122, 147, 0.2)', 
+          '0 0 200px rgba(130, 64, 239, 0.2)',
+          '0 0 200px rgba(236, 60, 72, 0.2)'
 
         ]
       }
