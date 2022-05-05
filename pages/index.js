@@ -40,8 +40,8 @@ export default function Home() {
       <div className='bg-_saturated col-start-1 col-end-13'>
       <div className="py-32 ">
         <div className='inline-grid grid-cols-12'>
-            <div className='flex flex-col justify-evenly col-start-2 col-end-6'>
-             <div className='flex pt-16 flex-col'>
+            <div className='flex flex-col py-16 justify-evenly col-start-2 col-end-6'>
+             <div className='flex flex-col'>
               <div className='text-left text-5xl'>
                 <Title 
                     title="Colaborate."
@@ -53,7 +53,7 @@ export default function Home() {
                   </p>
                 </div>
              </div>
-             <div className='w-2/4 pb-16 flex rounded-lg itmes-align flex-row'>
+             <div className='w-2/4 flex rounded-lg itmes-align flex-row'>
               <Button>
                   <div className='py-4 flex'>
                     <div className='pr-2'>
@@ -114,8 +114,8 @@ export default function Home() {
       <div className='bg-_saturated col-start-1 col-end-13'>
       <div className="py-32 ">
         <div className='inline-grid grid-cols-12'>
-            <div className='flex flex-col justify-evenly col-start-2 pl-14 col-end-6'>
-             <div className='flex pt-16 flex-col'>
+            <div className='flex flex-col py-16 justify-evenly col-start-2 pl-14 col-end-6'>
+             <div className='flex flex-col'>
               <div className='text-left text-5xl'>
                 <Title 
                     title="Compose."
@@ -127,7 +127,7 @@ export default function Home() {
                   </p>
                 </div>
              </div>
-             <div className='w-2/4 pb-16 flex rounded-lg itmes-align flex-row'>
+             <div className='w-2/4 flex rounded-lg itmes-align flex-row'>
               <Button>
                   <div className='py-4 flex'>
                     <div className='pr-2'>
