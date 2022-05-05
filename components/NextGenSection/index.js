@@ -8,12 +8,12 @@ import nextGen from '/public/next-gen-feats.png'
 export default function NextGenSection() {
   return (
     <div className='col-start-1 pt-24 col-end-13'>
-      <div className='text-6xl py-14'>
+      <div className='text-6xl'>
           <Title 
             title="Next-gen features."
           />
         </div>
-        <p className='w-3/12 px-2 leading-8 text-xl mx-auto'>
+        <p className='w-3/12 px-2 leading-8 py-12 text-xl mx-auto'>
             A powerful set of tools designed to work in any situation.
         </p>
       <div className='flex py-24'>
