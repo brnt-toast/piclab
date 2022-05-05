@@ -13,7 +13,7 @@ export default function FeatureBox(props) {
     <div className='bg-_saturated flex'>
      <div className='m-8'>
       <div className=' text-xl font-bold
-        bg-gradient-to-r from-_blue via-_pink to-_orange w-fit bg-clip-text text-transparent'>
+        bg-gradient-to-br from-_blue via-_pink to-_orange w-fit bg-clip-text text-transparent'>
         <Icon 
             icon={icon}
           />
