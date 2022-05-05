@@ -34,17 +34,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## What was Learned 
 ### 1. Worse is Better Principal  
-It is not only valid, but true. When faced with a deadline, while faced with  the challenge of using a completely foreign tech stack. It is imperative to break the problems down  into bit size atomic pieces. 
+It is not only valid, but true. When faced with a deadline, while faced with the challenge of using a completely foreign tech stack. It is imperative to break the problems down into bite size atomic pieces. 
 ### 2. Iterate Iterate Iterate 
 Following the `Worse is Better Principal` -- Just Start. 
 * Start with a Skelaton.
 * Build Atomics into Molecules into Organisms.
 ### 3. Refactor Refactor Refactor
-TDD/BDD basically preaches this. Just get something on the page then refactor like mad. Atleast have an `MVP` or `Protoype` to be able to show something. 
+TDD/BDD basically preaches this. Just get something on the page then refactor like mad. Atleast have an `MVP` or `Prototype` to be able to show something 
 ### 4. Pareto Principle
-* I should have jumped immediately into the static version of the Homepage.
-Instead what I did was spent 4 hours reading docs on the first about Prismic.io  -- Knowing nothing about Prismic and getting the server running is an achievement, however, an MVP is more important.
-* Instead of working in a descending, top to bottom, approch. After getting the grid layout implemented, I should have when straight into implementing `Feature Banners` as they were the bulk of the page. The Declaritive nature of React allows this to happen seemlessly 
+* I should have jumped immediately into the static version of the Homepage. Instead, what I did was spend 4 hours reading docs on the first day about Prismic.io -- Knowing nothing about Prismic and getting the server running is an achievement. However, an MVP is more important.
+* Instead of working in a descending, top to bottom, approach. After getting the grid layout implemented, I should have went straight into implementing `Feature Banners` as they were the bulk of the page. The Declaritive nature of React allows this to happen seemlessly
     * Then the `Header` and `Footer`
     * Followed by the rest of the document
 ### 5. TailwindCSS has a Mobile First Paradigm
