@@ -7,7 +7,7 @@ import heroImg from  '/public/app.piclab-5.png'
 
 export default function Hero() {
   return (
-    <div className="">
+    <div className="drop-shadow-glowie">
        <div className='py-16'>
         <h1 className="text-7xl w-9/12 tracking-tight leading-11 mx-auto font-extrabold">
           Image management
